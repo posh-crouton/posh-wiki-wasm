@@ -1,0 +1,17 @@
+## I'm trying to listen to music exclusively on cassettes. 
+
+In early April, I bought a cassette player and 5 tapes. I'd had the idea to create a highlight reel of the second of three acts in my D&D group's campaign, in a style inspired by horror fiction podcast [The Magnus Archives](https://rustyquill.com/show/the-magnus-archives/). 
+
+Of course, I'm not just going to buy something and use it once, so I started thinking about what else I could do with a cassette player. Perhaps audio journaling? No, I'd be terrible at that. Using them to store files? Nope - too small, too slow, and too easy to corrupt. How about mixtapes? 
+
+My relationship with music is a long and complex one. I was trained in various instruments for as long as I could remember, until I quit after GCSEs since I wasn't allowed to practice at home and couldn't afford lessons any more. Since I stopped actively studying music, I feel like the way I listen to it has changed, since I'm no longer thinking as much about technique, but now just enjoying it as the average listener does. 
+
+I've also thought about how what I've listened to, and for how long, has changed. I grew up before music streaming was popular, with CDs and radios. The radio would play whatever they wanted - what they thought the average listener would like, as opposed to me personally. CDs had a very limited number of songs on them, and while as a small child I had very little influence over which CDs were bought, I remember playing the songs I liked from the "Now! That's what I call music" CDs over and over again. Now, I have a Spotify premium subscription, and while there are some songs and playlists I go back to over and over again (especially musical soundtracks, playlists made by friends, and a select few artists), mostly I let Spotify play whatever it thinks I'll like. This results in me hearing a new song, thinking "I like this, I'll find it later, favourite it, and look into the artist", and never thinking about it again. The same happens with YouTube, which I use while at work. 
+
+I've heard from people who have been going back to iPods and other mp3 players recently that the experience has made them more intentional and attached to their music. They're incentivised to listen to it, both because they bought it, and because they have no other option. The cassette takes this a step further by not being able to play anything just on demand. Not only must I be very intentional in acquiring what I want to listen to, but the nature of how it's played forces me to become familiar with the order of songs in an album or playlist, and pushes me to consider the intentions of whoever organised it, even think about telling a story in the order of mixtapes I create. 
+
+Another constraint that makes sure I actually like the music I'm choosing is the limited speed at which I can record them. I can transfer an mp3 file in an instant, but to put flacs onto tape, I must play each song in its entirety. 
+
+As a part of my effort to commit to this, I'm cancelling my subscription to Spotify premium. Along with it, I'm cancelling a few other subscriptions I don't use any more. That makes me more than £70/month better off! Of course, I've been living without that money for a while with no problem, so actually, [some foxes are now better off](https://protectthewild.org.uk/adopt-an-animal/). 
+
+Final thoughts: Nowhere sells batteries any more. I went to like 4 different shops and none of them had AA batteries. 

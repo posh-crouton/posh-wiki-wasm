@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+      <UserSecretsId>660fa884-5ba7-41b8-9430-d9ba2e4a06c4</UserSecretsId>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.8" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.8" PrivateAssets="all" />
+        <PackageReference Include="MudBlazor" Version="8.13.0" />
+        <PackageReference Include="MudBlazor.Markdown" Version="8.11.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\sample-data\weather.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="Resources\Blog\*.md" />
+        <None Remove="Resources\Bookshelf\*.md" />
+        <EmbeddedResource Include="Resources\Blog\*.md" />
+        <EmbeddedResource Include="Resources\Bookshelf\*.md" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\img\" />
+    </ItemGroup>
+
+</Project>
