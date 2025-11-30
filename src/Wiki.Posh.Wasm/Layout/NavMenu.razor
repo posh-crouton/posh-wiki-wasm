@@ -1,33 +1,31 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">Wiki.Posh.Wasm</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
+﻿<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+    <MudNavMenu Style="width: 200px;">
+        <MudText Typo="Typo.h6" Class="px-4">
+            posh.wiki
+        </MudText>
+        <MudText Typo="Typo.body2" Class="px-4 mud-text-secondary">
+            I can't really describe it
+        </MudText>
+        <MudDivider Class="my-2" />
+        <MudNavLink Href="/">Home</MudNavLink>
+        <MudNavLink Href="/blog">Blog</MudNavLink>
+        <MudNavLink Href="/bookshelf">Bookshelf</MudNavLink>
+        <MudNavGroup Title="Art" Expanded="false">
+            <MudNavLink Href="/art/comms">Commissions</MudNavLink>
+        </MudNavGroup>
+    </MudNavMenu>
+    <hr />
+    <Webrings />
+    <hr />
+    <Socials />
+    <hr />
+    <Buttons />
+    <hr />
+    <Blinkies />
 </div>
 
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="nav flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="/blog">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Blog
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="/bookshelf">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Bookshelf
-            </NavLink>
-        </div>
-    </nav>
-</div>
-
-@code {
+@code
+{
     private bool collapseNavMenu = true;
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
@@ -36,5 +34,4 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
-
 }

@@ -2,14 +2,12 @@
 
 namespace Wiki.Posh.Wasm.Services;
 
-public partial class MarkdownReader
+public static partial class MarkdownHeaderReader
 {
     [GeneratedRegex(@"-{3}\s*\r?\n?", RegexOptions.Compiled)]
     private static partial Regex HeaderIdentifierRegex();
 
-    public MarkdownFile ReadFile 
-    
-    private static Dictionary<string, string> ReadFromStream(Stream stream)
+    public static Dictionary<string, string> ReadFromStream(Stream stream)
     {
         using var reader = new StreamReader(stream);
 
@@ -44,12 +42,4 @@ public partial class MarkdownReader
 
         return ret;
     }
-}
-
-public class MarkdownFile
-{
-    public string Path { get; init; } = string.Empty;
-    public string Content { get; init; } = string.Empty;
-    public DateOnly Date { get; init; }
-    public IList<string> Tags { get; init; } = [];
 }

@@ -1,40 +1,18 @@
 ﻿@page "/blog"
-@using System.Reflection
-
 <h1>Blog</h1>
-
 <ul>
-@foreach (var post in Posts.Reverse())
-{
-    <li>
-        <a href="@($"/blog/{post.Value}")">@post.Key</a>
-    </li>
-}
-</ul>
-
-@code {
-    public Dictionary<string, string> Posts { get; } = [];
-    
-    protected override void OnInitialized()
+    @foreach (var post in Posts)
     {
-        Assembly assembly = Assembly.GetExecutingAssembly();
-        IEnumerable<string> resourceNames = assembly.GetManifestResourceNames()
-            .Where(x => x.Contains("Blog"));
-
-        foreach (string resourceName in resourceNames)
-        {
-            using var stream = assembly.GetManifestResourceStream(resourceName);
-            if (stream is null)
+        <li>
+            <a href="@(post.Uri)">
+            @post.Title
+            </a>
+            @if (post.Tags.Any())
             {
-                continue;
+                <span class="text-secondary">
+                @post.JoinedTags
+                </span>
             }
-            
-            using var reader = new StreamReader(stream);
-            string title = reader.ReadLine()?.Split('\n')[0].TrimStart('#') ?? "Unknown title";
-            string identifier = string.Join('.', resourceName.Split('.').TakeLast(2));
-            Posts.Add(title, identifier);
-        }
-        
-        base.OnInitialized();
+        </li>
     }
-}
+</ul>
