@@ -1,4 +1,6 @@
-## Useful Files For Your Repository: .NET Edition 
+---
+title: Useful Files For Your Repository: .NET Edition 
+---
 
 This post is a follow-up to my earlier post, [Useful Metadata Files For Your Repository](#). While that post tried its best to be language and tooling-agnostic, this edition specialises in lesser known utilities for .NET developers. 
 

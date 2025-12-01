@@ -1,4 +1,6 @@
-## The UK is back at it again on the road to technocracy.
+---
+title: The UK is back at it again on the road to technocracy.
+---
 
 You know, I used to not have to give half a shit about domestic politics. Good times. 
 

@@ -1,4 +1,6 @@
-## I'm trying to listen to music exclusively on cassettes. 
+---
+title: I'm trying to listen to music exclusively on cassettes. 
+---
 
 In early April, I bought a cassette player and 5 tapes. I'd had the idea to create a highlight reel of the second of three acts in my D&D group's campaign, in a style inspired by horror fiction podcast [The Magnus Archives](https://rustyquill.com/show/the-magnus-archives/). 
 

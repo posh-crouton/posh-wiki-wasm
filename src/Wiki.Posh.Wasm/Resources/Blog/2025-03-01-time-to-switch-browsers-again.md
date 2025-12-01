@@ -1,4 +1,6 @@
-## Time to switch browsers... again 
+---
+title: Time to switch browsers... again 
+---
 
 A couple of months ago, I talked about [the last step in my move away from Opera browser](https://posh.wiki/blog/2025-01-04-ditching-opera-browser.html). Now, I'm moving once more. 
 

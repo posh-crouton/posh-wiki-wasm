@@ -1,10 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
     <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-      <UserSecretsId>660fa884-5ba7-41b8-9430-d9ba2e4a06c4</UserSecretsId>
   </PropertyGroup>
 
     <ItemGroup>

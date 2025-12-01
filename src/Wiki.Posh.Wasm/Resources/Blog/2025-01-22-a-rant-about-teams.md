@@ -1,4 +1,6 @@
-## A Developer's Rant About Microsoft Teams 
+---
+title: A Developer's Rant About Microsoft Teams 
+---
 
 <p>
     I often complain that for my job, I have to use Windows. Even more unfortunate is that my

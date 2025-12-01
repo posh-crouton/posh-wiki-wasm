@@ -1,4 +1,6 @@
-## Amazon is removing your ability to download ebooks - here's what you can do about it 2025-02-18
+---
+title: Amazon is removing your ability to download ebooks - here's what you can do about it 
+---
 
 On 26th February, Amazon will be removing your ability to download ebooks to non-kindle devices, [The Verge](https://www.theverge.com/news/612898/amazon-removing-kindle-book-download-transfer-usb) reports. 
 

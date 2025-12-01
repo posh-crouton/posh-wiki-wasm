@@ -1,14 +1,33 @@
 ﻿@page "/blog/{postId}"
 @using System.Reflection
-@using Microsoft.AspNetCore.Components
+@using Wiki.Posh.Wasm.Services
+<div class="container">
+    <div class="row">
+        <div class="col col-auto"></div>
+        <div class="col" style="max-width: 120ch;">
+            <h1>
+            @Title
+            </h1>
+            <span class="text-secondary">
+            @string.Join(' ', Tags)
+            </span>
+            <hr />
+            <MudMarkdown Value="@Content" />
+        </div>
+        <div class="col col-auto"></div>
+    </div>
+</div>
 
-<MudMarkdown Value="@Content" />
-
-@code {
-
+@code
+{
     [Parameter] public string PostId { get; set; } = string.Empty;
+
     public string Content { get; set; } = string.Empty;
-    
+
+    public string Title { get; set; } = string.Empty;
+
+    public string[] Tags { get; set; } = [];
+
     protected override void OnInitialized()
     {
         Assembly assembly = Assembly.GetExecutingAssembly();
@@ -26,11 +45,15 @@
         {
             return;
         }
-        
+
         using var reader = new StreamReader(stream);
-        Content = reader.ReadToEnd();
-        
+        Content = MarkdownHeaderReader.TrimHeaders(reader.ReadToEnd());
+
+        stream.Position = 0;
+        var headers = MarkdownHeaderReader.ReadFromStream(stream);
+        Title = headers.GetValueOrDefault("title", "[Title Unknown]");
+        Tags = headers.GetValueOrDefault("tags", string.Empty).Split(' ');
+
         base.OnInitialized();
     }
-
 }

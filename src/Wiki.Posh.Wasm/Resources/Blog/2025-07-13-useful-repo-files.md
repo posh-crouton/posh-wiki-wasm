@@ -1,4 +1,6 @@
-# Useful Metadata Files For Your Repository 
+---
+title: Useful Metadata Files For Your Repository 
+---
 
 There are many more files than README.md to provide valuable metadata about a repository, but a surprising number of developers and organisations never consider them. This post is walkthrough of more niche language-agnostic metadata files which might prove valuable in your repos. 
 

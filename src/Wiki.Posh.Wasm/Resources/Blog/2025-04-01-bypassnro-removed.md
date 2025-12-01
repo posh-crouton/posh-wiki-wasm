@@ -1,4 +1,6 @@
-## Microsoft removed oobe\bypassnro, but you can still install Windows without a Microsoft account
+---
+title: Microsoft removed oobe\bypassnro, but you can still install Windows without a Microsoft account
+---
 
 In the latest beta builds of Windows, Microsoft has removed the bypassNRO script. This script allowed 
 users to set up Windows without the requirement for a Microsoft account, which is imposed on most users. 
