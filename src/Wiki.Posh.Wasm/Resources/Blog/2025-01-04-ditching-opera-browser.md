@@ -1,4 +1,7 @@
-## Ditching Opera Browser 
+---
+title: Ditching Opera Browser
+tags: tech rants
+---
 
 <p>
     In early 2024, I made the decision to switch browsers.

@@ -1,4 +1,6 @@
-# I got bored and solved LetterBoxed programmatically
+---
+title: I got bored and solved LetterBoxed programmatically
+---
 
 For those who might not know, LetterBoxed is a game owned by the New York Times in which 12 pseudorandom letters appear in a square shape, 3 on each side. The goal of the game is to touch each letter at least once by forming as few words as possible by drawing an uninterrupted line (e.g., if your first word ends with "N", your second word must also begin with "N"). You cannot touch the same letter side of the square twice in a row. The game seems to present 4 as a good number of words to complete the game. It seems to be a matter of using the fewest words possible, but beyond that, I decided to define my success criteria as being able to find the lowest number of words required to solve a given problem, and then within that, the shortest possible solution in terms of number of characters. 
 

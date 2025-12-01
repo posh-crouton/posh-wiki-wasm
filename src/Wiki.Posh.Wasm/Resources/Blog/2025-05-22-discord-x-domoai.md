@@ -1,4 +1,6 @@
-## Discord X DomoAI: The Full Story (+ Advice)
+---
+title: Discord X DomoAI: The Full Story (+ Advice)
+---
 
 Recently, you might have seen some posts or messages about Discord partnering with a service called DomoAI. Many such posts claim that DomoAI is a bot "hiding" in Discord servers and using the images sent there to train AI, or something similar - let's break down what's *actually* happening, what's fact, and what's speculation. 
 

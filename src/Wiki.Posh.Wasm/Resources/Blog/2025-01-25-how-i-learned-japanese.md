@@ -1,4 +1,6 @@
-## How I learned Japanese
+---
+title: How I learned Japanese
+---
 
 In 2020, I started learning Japanese casually. I didn't have any specific goals in mind, I just had a lot of free time (didn't we all in 2020?) and I thought it would be interesting. 
 

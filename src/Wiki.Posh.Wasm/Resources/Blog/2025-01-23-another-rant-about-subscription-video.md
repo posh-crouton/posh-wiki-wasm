@@ -1,4 +1,6 @@
-## Another Rant, This Time About Subscription Video Services
+---
+title: Another Rant, This Time About Subscription Video Services
+---
 
 <p>
     This originally started as a small anecdote for a friend's English class, but I accidentally

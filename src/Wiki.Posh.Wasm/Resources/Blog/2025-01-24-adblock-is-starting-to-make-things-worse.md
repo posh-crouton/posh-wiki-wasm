@@ -1,4 +1,6 @@
-## Adblock is starting to make my experience worse.
+---
+title: Adblock is starting to make my experience worse.
+---
 
 <p>
     I'm a pretty big advocate for blocking ads. Part of the way I do this is using Proton VPN's

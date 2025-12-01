@@ -42,4 +42,12 @@ public static partial class MarkdownHeaderReader
 
         return ret;
     }
+    
+    public static string TrimHeaders(string input)
+    {
+        return string.IsNullOrWhiteSpace(input) 
+            ? input : 
+            Regex.Replace(input, @"\A---\s*[\s\S]*?\s*---\s*", "");
+    }
+
 }

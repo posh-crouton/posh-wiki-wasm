@@ -1,4 +1,6 @@
-# Cleanly de-coupling classes in client-side .NET applications using weak reference messengers 
+---
+title: Cleanly de-coupling classes in client-side .NET applications using weak reference messengers 
+---
 
 Commonly, messaging is done with multi-cast delegates. "Subscribing" to such a delegate creates a "strong reference" between instances, meaning that so long as a recipient is subscribed, a sender can't be garbage collected and thus will remain in memory. This means you must remember to unsubscribe from each and every such delegate once your recipient is no longer needed (often in a disposer or finaliser), or risk creating memory leaks. It also requires the sender and recipient instance to have knowledge of one another, increasing coupling. 
 

@@ -1,4 +1,6 @@
-## Minecraft Texture Packs 
+---
+title: Minecraft Texture Packs 
+---
 
 <p>
     Just a quick collection of the resource packs I use in Minecraft!
