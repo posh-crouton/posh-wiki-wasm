@@ -13,6 +13,8 @@ public partial class BlogIndex
         IEnumerable<string> resourceNames = assembly.GetManifestResourceNames()
             .Where(x => x.Contains("Blog"));
 
+        resourceNames = resourceNames.Reverse();
+        
         foreach (string resourceName in resourceNames)
         {
             using var stream = assembly.GetManifestResourceStream(resourceName);

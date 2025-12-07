@@ -1,5 +1,9 @@
-## On Writing 
-<span class="text-secondary">by Steven King</span>
+---
+title: On Writing
+author: Steven King
+date: 2025-01-14
+---
+
 <p>
                     If I'm going to be writing about every book I read, I may as well attempt to make it engaging. A
                     book about writing, therefore, seemed a logical first choice.

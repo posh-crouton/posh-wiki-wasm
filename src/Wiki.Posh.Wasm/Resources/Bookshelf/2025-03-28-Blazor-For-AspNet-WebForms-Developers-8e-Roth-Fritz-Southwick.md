@@ -1,5 +1,8 @@
-## Blazor for ASP.NET Web Forms Developers, 8th Edition 
-<span class="text-secondary">by Daniel Roth, Jeff Fritz, and Taylor Southwick</span>
+---
+title: Blazor for ASP.NET Web Forms Developers, 8th Edition
+author: Daniel Roth, Jeff Fritz, and Taylor Southwick
+date: 2025-03-28
+---
 
 This ebook is available for free at https://learn.microsoft.com/en-us/dotnet/architecture/blazor-for-web-forms-developers/. 
 

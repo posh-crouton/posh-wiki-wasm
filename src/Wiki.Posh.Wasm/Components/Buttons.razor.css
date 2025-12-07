@@ -6,3 +6,14 @@ div.buttons-container {
 img {
     width: 88px;
 }
+
+div.clickable > a > img
+{
+    image-rendering: pixelated;
+    transition: 0.2s;
+}
+
+div.clickable > a > img:hover 
+{
+    transform: scale(1.5);
+}

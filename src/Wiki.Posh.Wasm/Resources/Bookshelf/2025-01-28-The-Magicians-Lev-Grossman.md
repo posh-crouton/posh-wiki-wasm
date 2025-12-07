@@ -1,5 +1,9 @@
-## The Magicians 
-<span class="text-secondary">by Lev Grossman</span>
+---
+title: The Magicians
+author: Lev Grossman
+date: 2025-01-28
+---
+
 <p>
     I don't have a great many printed books to hand. I used to have hundreds, across four or five
     bookshelves, back before I moved into my own place, but I took only a few books with me. It's

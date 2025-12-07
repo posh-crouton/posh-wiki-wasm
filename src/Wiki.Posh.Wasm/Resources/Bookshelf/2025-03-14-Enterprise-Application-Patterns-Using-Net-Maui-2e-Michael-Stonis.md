@@ -1,5 +1,8 @@
-## Enterprise Application Patterns Using .NET MAUI, 2nd Edition
-<span class="text-secondary">by Michael Stonis</span>
+---
+title: Enterprise Application Patterns Using .NET MAUI, 2nd Edition
+author: Michael Stonis
+date: 2025-03-14
+---
 
 This book is available to download for free from https://learn.microsoft.com/en-us/dotnet/architecture/maui/. 
 
