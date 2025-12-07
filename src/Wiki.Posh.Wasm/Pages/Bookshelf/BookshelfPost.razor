@@ -9,7 +9,11 @@
             @Title
             </h1>
             <span class="text-secondary">
-                By:&nbsp;@Author | Read:&nbsp;@Date |&nbsp;@string.Join(' ', Tags)
+                By:
+                @Author
+                | Read:
+                @Date<br />
+                @string.Join(' ', Tags)
             </span>
             <hr />
             <MudMarkdown Value="@Content" />
