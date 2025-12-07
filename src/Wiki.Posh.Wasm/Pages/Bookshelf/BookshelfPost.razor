@@ -1,13 +1,36 @@
 ﻿@page "/bookshelf/{postId}"
 @using System.Reflection
-@using Microsoft.AspNetCore.Components
-<MudMarkdown Value="@Content" />
+@using Wiki.Posh.Wasm.Services
+<div class="container">
+    <div class="row">
+        <div class="col col-auto"></div>
+        <div class="col" style="max-width: 120ch;">
+            <h1>
+            @Title
+            </h1>
+            <span class="text-secondary">
+                By:&nbsp;@Author | Read:&nbsp;@Date |&nbsp;@string.Join(' ', Tags)
+            </span>
+            <hr />
+            <MudMarkdown Value="@Content" />
+        </div>
+        <div class="col col-auto"></div>
+    </div>
+</div>
 
 @code
 {
     [Parameter] public string PostId { get; set; } = string.Empty;
 
     public string Content { get; set; } = string.Empty;
+
+    public string Title { get; set; } = string.Empty;
+
+    public string Author { get; set; } = string.Empty;
+
+    public string Date { get; set; } = string.Empty;
+
+    public string[] Tags { get; set; } = [];
 
     protected override void OnInitialized()
     {
@@ -28,7 +51,14 @@
         }
 
         using var reader = new StreamReader(stream);
-        Content = reader.ReadToEnd();
+        Content = MarkdownHeaderReader.TrimHeaders(reader.ReadToEnd());
+
+        stream.Position = 0;
+        var headers = MarkdownHeaderReader.ReadFromStream(stream);
+        Title = headers.GetValueOrDefault("title", "[Title Unknown]");
+        Author = headers.GetValueOrDefault("author", "[Author Unknown]");
+        Date = headers.GetValueOrDefault("date", "[Date Unknown]");
+        Tags = headers.GetValueOrDefault("tags", string.Empty).Split(' ');
 
         base.OnInitialized();
     }
