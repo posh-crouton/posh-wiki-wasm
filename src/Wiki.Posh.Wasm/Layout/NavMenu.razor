@@ -1,4 +1,5 @@
-﻿<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+﻿@inject NavigationManager NavMgr
+<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
     <MudNavMenu Style="width: 200px;">
         <img src="img/profile.png" style="border-radius: 50%; border: 5px solid #333333; width: 100%;" />
         <MudText Typo="Typo.h6" Class="px-4">
@@ -14,6 +15,15 @@
         <MudNavGroup Title="Art" Expanded="false">
             <MudNavLink Href="/art/comms">Commissions</MudNavLink>
         </MudNavGroup>
+        @if (NavMgr.Uri.Contains("/nsfw"))
+        {
+            <MudNavGroup Title="Nsfw">
+                <MudNavLink Href="/nsfw/kinks">Kinks ("F-List")</MudNavLink>
+                <MudNavGroup Title="Art" Expanded="false">
+                    <MudNavLink Href="/nsfw/art/comms">Commissions</MudNavLink>
+                </MudNavGroup>
+            </MudNavGroup>
+        }
     </MudNavMenu>
     <hr />
     <Webrings />
